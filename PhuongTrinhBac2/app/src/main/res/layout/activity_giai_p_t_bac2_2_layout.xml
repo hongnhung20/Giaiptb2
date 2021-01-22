@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bt2"
+    tools:context=".GiaiPTBac2_2Layout">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Giải phương trình bậc 2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttondongud2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#414877"
+        android:text="Đóng"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="#414877"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGiaiPT2" />
+
+    <EditText
+        android:id="@+id/editTextTextHesoa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Nhập hệ số a"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#909497"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextTextHesob2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Nhập hệ số b"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#909497"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextHesoa2" />
+
+    <EditText
+        android:id="@+id/editTextTextHesoc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Nhập hệ số c"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#909497"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextHesob2" />
+
+    <Button
+        android:id="@+id/buttonGiaiPT2"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="52dp"
+        android:background="#DFDEAD"
+        android:text="Giải Phương trình"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="#DFDEAD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtitle2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Kết quả:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextHesoc2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
